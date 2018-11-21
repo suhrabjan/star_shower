@@ -4,6 +4,7 @@ canvas.height = window.innerHeight;
 const ctx = canvas.getContext('2d');
 let c = 0;
 let d = 1;
+let e;
 
 // Object Circle
 function Star(x, y, radius, color) {
