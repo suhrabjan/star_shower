@@ -208,7 +208,7 @@ function init() {
         stars[i] = new Star(x, y, radius, color);
     }
 
-    for (let i = 0; i < 150; ++i) {
+    for (let i = 0; i < 50; ++i) {
         let radius = 4;
         let x = radius + Math.random() * (canvas.width - 2 * radius);
         let y = radius + Math.random() * (canvas.height - 2 * radius);
